@@ -19,6 +19,12 @@ const Login = () => {
 
   return (
     <div>
+      <h1>
+        <span>Movie</span> Hive
+      </h1>
+      <h1>This is our heading font</h1>
+      <p>Please log in</p>
+      <p className="different">I am a different font. HOW MANY CAPITALS DO YOU WANT?</p>
       <button onClick={signIn}>Login</button>
     </div>
   )
